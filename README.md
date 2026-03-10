@@ -1,2 +1,2 @@
 # AuditChain-Immutable-Financial-Audit-Logger
-Using Haskel
+AuditChain is a command-line financial audit logging system built entirely in Haskell as part of 23CSE212 - Principles of Functional Language. It uses a blockchain-inspired, append-only ledger where every transaction is cryptographically chained to the previous one using SHA-256. Any attempt to modify a past record immediately breaks the hash chain and is detected by the verifier. The project demonstrates core functional programming concepts including algebraic data types, pure functions, the IO Monad, higher-order functions, and immutable data structures.
